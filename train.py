@@ -94,7 +94,7 @@ def Load_dataset(dataset_dir, classifier_size=(64, 64), n_class=2):
 
 
 # 使用DCNN进行训练
-def Train(X, y, save_model_to, batch_size=128, split=0.16, config=[]):
+def Train(X, y, save_model_to, batch_size=128, split=0.2, config=[]):
 
     img_channels, img_rows, img_cols = X.shape[1:]
     model_str = ""
